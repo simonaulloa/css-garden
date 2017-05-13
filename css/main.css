@@ -1,5 +1,6 @@
 
 #css-zen-garden {
+	background-color: #dbedff;
 	color:#000;/*color tipografia*/
 	text-align: center;/* centar tipo*/
 	padding: 20px;/*  esto sirve para centrar UN div*/
@@ -7,47 +8,100 @@
 	font-family: 'Lobster', cursive;
 	width:1200px;
 	margin:0 auto;/*  esto sirve para centrar UN div*/
+}
 
-}
-.intro{
-	border: 1px solid #da2727;
-}
 h1{
-	border: 1px solid #da2727;
+	font-size: 32px;
+    padding: 24px;
+    background-color: #dbd6ea;
 }
+
 .summary{
-	border: 1px solid #da2727;
-	width:597px;
-	height: 250px;
+	background-image: url(../img/img2.jpg);
+	color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 7px;
+	width:386px;
+	height: 350px;
 	float: left;
+	margin: 20px;
+	padding: 10px;
 }
 .preamble{
-	border: 1px solid #da2727;
-	width:597px;
-	height: 250px;
+	background-image: url(../img/img.jpg);
+	color: #518879;
+	border: 1px solid #ccc;
+	border-radius: 7px;
+	width:386px;
+	height: 350px;
 	float: left;
-}
-
-.explanation{
-	border: 1px solid #da2727;
-	float: left;
-}
-.participation{
-	border: 1px solid #da2727;
-	float: left;
-}
-.benefits{
-	border: 1px solid #da2727;
-	float: left;
-}
-.requirements{
-	border: 1px solid #da2727;
-	float: left;
-}
-
-footer{
-	background-color: #adadad;
-	color:#fff!important;
+	margin: 20px;
 	padding: 10px;
 }
 
+.explanation{
+	background-color:#fff;
+	color: #696969;
+	border-radius: 7px;
+	border: 1px solid #ccc;
+	width:896px;
+	float: left;
+	padding: 20px;
+	margin: 20px;	
+}
+.participation{
+	background-color:#fff;
+	color: #696969;
+	border-radius: 7px;
+	border: 1px solid #ccc;
+	width:896px;
+	float: left;
+	padding: 20px;
+	margin: 20px;	
+}
+.benefits{
+	background-color:#fff;
+	color: #696969;
+	border-radius: 7px;
+	border: 1px solid #ccc;
+	width:896px;
+	float: left;
+	padding: 20px;
+	margin: 20px;	
+}
+.requirements{
+	background-color:#fff;
+	color: #696969;
+	border-radius: 7px;
+	border: 1px solid #ccc;
+	width:896px;
+	float: left;
+	padding: 20px;
+	margin: 20px;	
+}
+.wrapper{
+     margin: 0 auto;
+}
+.design-selection{
+	width: 300px;
+	margin-left: 75%;
+	margin-top: 4%;
+}
+.design-archives{
+	width: 150px;
+	margin-left: 81%;
+}
+.zen-resources{
+
+	width: 170px;
+	margin-left: 81%;;
+	margin-bottom: 104%;
+}
+
+footer{
+	color:#fff!important;
+	padding: 10px;
+	background-color: #ccc;
+	border-radius: 5px;
+	text-align: center;
+}
