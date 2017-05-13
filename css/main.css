@@ -1,1 +1,53 @@
-hola ... prueba si se puede subir a git/* Agrega aquí tus estilos*/
+
+#css-zen-garden {
+	color:#000;/*color tipografia*/
+	text-align: center;/* centar tipo*/
+	padding: 20px;/*  esto sirve para centrar UN div*/
+	margin: 0; 
+	font-family: 'Lobster', cursive;
+	width:1200px;
+	margin:0 auto;/*  esto sirve para centrar UN div*/
+
+}
+.intro{
+	border: 1px solid #da2727;
+}
+h1{
+	border: 1px solid #da2727;
+}
+.summary{
+	border: 1px solid #da2727;
+	width:597px;
+	height: 250px;
+	float: left;
+}
+.preamble{
+	border: 1px solid #da2727;
+	width:597px;
+	height: 250px;
+	float: left;
+}
+
+.explanation{
+	border: 1px solid #da2727;
+	float: left;
+}
+.participation{
+	border: 1px solid #da2727;
+	float: left;
+}
+.benefits{
+	border: 1px solid #da2727;
+	float: left;
+}
+.requirements{
+	border: 1px solid #da2727;
+	float: left;
+}
+
+footer{
+	background-color: #adadad;
+	color:#fff!important;
+	padding: 10px;
+}
+
